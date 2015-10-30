@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>Hello Angular</title>
+    <link href="css/MyStyles.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="Content/bootstrap.css">
+  
+
+</head>
+<body>
+    <div class="container">
+        <div class="hero-unit">
+            <div class="input-daterange" id="datepicker">
+                <input type="text" class="input-small" name="start" />
+                <span class="add-on" style="vertical-align: top;height:20px">to</span>
+                <input type="text" class="input-small" name="end" />
+            </div>
+        </div>
+    </div>
+
+   
+
+
+
+    <div ng-controller="Main ">
+        <div id="search">
+            <p>Search</p> <input type="text" id="searchTerm" class="search_box" onkeyup="doSearch()" />
+        </div>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Adress</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="person in persons">
+                    <td>{{person.FirstName }}</td>
+                    <td>{{person.LastName }}</td>
+                    <td>{{person.Address}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function doSearch() {
+            var searchText = document.getElementById('searchTerm').value;
+            var targetTable = document.getElementById('dataTable');
+            var targetTableColCount;
+            var letterIsUpperCase = false;
+            var temp = searchText.toLowerCase();
+            searchText = temp;
+          
+            for (var rowIndex = 0; rowIndex < targetTable.rows.length; rowIndex++) {
+                var rowData = '';
+               
+                if (rowIndex == 0) {
+                    targetTableColCount = targetTable.rows.item(rowIndex).cells.length;
+                    continue; 
+                }
+              
+                for (var colIndex = 0; colIndex < targetTableColCount; colIndex++) {
+                    rowData += targetTable.rows.item(rowIndex).cells.item(colIndex).textContent.toLowerCase();
+                }
+
+                if (rowData.indexOf(searchText) == -1)
+                    targetTable.rows.item(rowIndex).style.display = 'none';
+                else
+                    targetTable.rows.item(rowIndex).style.display = 'table-row';
+            }
+        }
+    </script>
+
+    <script src="Scripts/angular.min.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/main.js"></script>
+    <script src="app/services.js"></script>
+ 
+    <!-- Load jQuery and bootstrap datepicker scripts -->
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript">
+        // When the document is ready
+        $(document).ready(function () {
+
+            $('.input-daterange').datepicker({
+                todayBtn: "linked"
+            });
+
+        });
+    </script>
+
+</body>
+</html>

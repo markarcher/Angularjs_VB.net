@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Angular.UI.Bootstrap.DateTimePicker</id>
+    <version>0.11.0</version>
+    <authors>Vitalii Fedorenko</authors>
+    <owners>Vitalii Fedorenko</owners>
+    <licenseUrl>https://raw.githubusercontent.com/zhaber/datetimepicker/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/zhaber/datetimepicker</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Angular UI Bootstrap Date Time Picker. The control is based on AngularUI Datepicker and Timepicker.</description>
+    <tags>AngularUI Bootstrap DateTimePicker</tags>
+    <dependencies>
+      <dependency id="Angular.UI.Bootstrap" version="0.11.0" />
+    </dependencies>
+  </metadata>
+</package>

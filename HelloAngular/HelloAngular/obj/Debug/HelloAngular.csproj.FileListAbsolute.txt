@@ -1,0 +1,14 @@
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\bin\HelloAngular.dll.config
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\bin\HelloAngular.dll
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\bin\HelloAngular.pdb
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\bin\Newtonsoft.Json.dll
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\bin\System.Net.Http.Formatting.dll
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\bin\System.Web.Http.dll
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\bin\System.Web.Http.WebHost.dll
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\bin\Newtonsoft.Json.xml
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\bin\System.Net.Http.Formatting.xml
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\bin\System.Web.Http.xml
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\bin\System.Web.Http.WebHost.xml
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\obj\Debug\HelloAngular.dll
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\obj\Debug\HelloAngular.pdb
+C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\obj\Debug\HelloAngular.csprojResolveAssemblyReference.cache
