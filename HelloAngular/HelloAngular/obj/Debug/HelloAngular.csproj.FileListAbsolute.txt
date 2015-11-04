@@ -12,3 +12,17 @@ C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\bi
 C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\obj\Debug\HelloAngular.dll
 C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\obj\Debug\HelloAngular.pdb
 C:\Users\mark\Documents\Visual Studio 2013\Projects\HelloAngular\HelloAngular\obj\Debug\HelloAngular.csprojResolveAssemblyReference.cache
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\bin\HelloAngular.dll.config
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\bin\HelloAngular.dll
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\bin\HelloAngular.pdb
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\bin\Newtonsoft.Json.dll
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\bin\System.Net.Http.Formatting.dll
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\bin\System.Web.Http.dll
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\bin\System.Web.Http.WebHost.dll
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\bin\Newtonsoft.Json.xml
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\bin\System.Net.Http.Formatting.xml
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\bin\System.Web.Http.xml
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\bin\System.Web.Http.WebHost.xml
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\obj\Debug\HelloAngular.csprojResolveAssemblyReference.cache
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\obj\Debug\HelloAngular.dll
+D:\LocalGitHubRepository\Angularjs_VB.net\HelloAngular\HelloAngular\obj\Debug\HelloAngular.pdb

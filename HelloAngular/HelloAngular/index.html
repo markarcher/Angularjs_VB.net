@@ -13,15 +13,19 @@
     <div class="container">
         <div class="hero-unit">
             <div class="input-daterange" id="datepicker">
-                <input type="text" class="input-small" name="start" />
-                <span class="add-on" style="vertical-align: top;height:20px">to</span>
-                <input type="text" class="input-small" name="end" />
+                
+                    <input type="text" class="input-small" name="start" id="startDate" />
+                    <span class="add-on" style="vertical-align: top;height:20px">to</span>
+                    <input type="text" class="input-small" name="end" id="endDate" />
+                    <button onclick="myFunction()">Search Dates </button>
             </div>
+           
+
         </div>
     </div>
 
    
-
+    <p id="demo"></p>
 
 
     <div ng-controller="Main ">
@@ -94,5 +98,10 @@
         });
     </script>
 
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = document.getElementById("endDate").value;
+        }
+    </script>
 </body>
 </html>
